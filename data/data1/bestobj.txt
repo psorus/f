@@ -1,0 +1,47 @@
+{
+  "typ": "exp",
+  "param": [
+    {
+      "typ": "*",
+      "param": [
+        {
+          "type": "variable",
+          "name": "x"
+        },
+        {
+          "typ": "*",
+          "param": [
+            {
+              "typ": "exp",
+              "param": [
+                {
+                  "type": "variable",
+                  "name": "a"
+                }
+              ]
+            },
+            {
+              "typ": "cosh",
+              "param": [
+                {
+                  "typ": "tan",
+                  "param": [
+                    {
+                      "typ": "cos",
+                      "param": [
+                        {
+                          "type": "variable",
+                          "name": "a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
